@@ -1,0 +1,29 @@
+movie:
+  children:
+    name:
+      css: div.title_wrapper a
+      type: Text
+    year:
+      css: '#titleYear a'
+      type: Text
+      format: Year
+    rating:
+      css: div.subtext
+      type: Text
+    running_time:
+      css: div.subset time
+      type: Text
+    opening_date:
+      css: div.subset a[4]
+      type: Text
+    summary:
+      css: div.summary_text div
+      type: Text
+    budget:
+      css: div.txt-block
+      type: Text
+    poster-link:
+      css: div.poster img
+      type: Attribute
+      attribute: src
+      format: Joined

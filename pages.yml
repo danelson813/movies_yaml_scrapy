@@ -1,0 +1,6 @@
+link:
+  css: td.titleColumn a
+  multiple: True
+  type: Attribute
+  attribute: href
+  format: Joined
